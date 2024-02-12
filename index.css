@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(197, 247, 238);
+    border-radius: 15px;
+    width: 600px;
+    align-content: center;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.content {
+    
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.225);
+    font-size: larger;
+    
+}
+
+.content2 {
+
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.225);
+    font-size: larger;
+    
+}
+
+.ImagenTarjeta {
+    width: 300px;
+    transition: 0.5s;
+}
+
+.ImagenTarjeta:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.225);
+    cursor:not-allowed;
+}
+
+.PrincipalBody {
+    padding: 50px;
+    border-radius: 15px;
+    align-content: center;
+    margin: 10px;
+}
+
+.BotonComprar {
+    box-shadow: black;
+    background-color: transparent;
+    border: 1px solid rgb(rgb(85, 25, 182), green, blue);
+    transition: 0.5s;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.BotonComprar:hover {
+    background-color: rgb(41, 161, 105);
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.225);
+    transform: scale(1.2);
+    cursor: grab;
+}
+
+/*content para id se usa asterisco*/
